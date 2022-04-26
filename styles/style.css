@@ -1,0 +1,266 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+}
+
+a{
+    text-decoration-line: none;
+    color: #ff8fe7;
+}
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #6b345f;
+    align-items: center;
+}
+
+.blocknav:hover{
+    text-shadow: 1px 2px 3px black;
+    transition: 0.5s;
+}
+
+.blocknav{
+    width: 180px;
+    text-align: center;
+    transition: 0.5s
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background: url(../img/header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 27px;
+    text-shadow: 2px 0px 3px #6b6b6b;
+    color: #30192b
+}
+
+.headerbox{
+    margin: 50px;
+}
+
+
+
+header *{
+    margin: 0;
+}
+
+.info{
+    width: 900px;
+    margin: 20px auto;
+    background-color: #d498c7;
+    padding: 20px;
+    border-radius: 10px;
+    color: #1f0619;
+    display: flex;
+    
+}
+.infoleft{
+    width: 550px;
+    margin-right: 35px; 
+}
+
+li{
+    list-style: '✿'
+}
+
+li:hover{
+    list-style: '👉'
+}
+
+.katalog{
+    width: 900px;
+    margin: 0 auto;
+    padding:  0 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.boxcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.imgkatalog{
+    width: 250px;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.card{
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 3px #4a1b40;
+    padding: 0px 0px 20px 0px;
+}
+
+.card h3{
+    margin: 15px;
+    text-align: center
+}
+
+.btn{
+    min-width: 100px;
+    min-height: 40px;
+    background-color: #c97fb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    padding: 1px
+}
+
+.galereya{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    background-color: #a37c9b;
+    padding: 0 0 80px 0;
+
+}
+
+.imggal{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.galbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.otzivi{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.otzivititle{
+    text-align: center;
+    margin: 100px 0 20px;
+}
+
+.comitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d1a5c8;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nonmargin{
+    margin: 0 0 15px 0;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.zakaz{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px #754f6d;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+input:hover{
+    box-shadow: 0px 0px 10px #d90dad;
+    transition: 0.5s;
+}
+
+textarea{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #754f6d;
+    resize: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+textarea:hover{
+    box-shadow: 0px 0px 10px #d90dad;
+    transition: 0.5s;
+}
+
+footer{
+    width: 100%;
+    background-color: #2e0625;
+    height: 300px;
+    margin-top: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotbox{
+    width: 400px;
+}
+
+button{
+    margin-top: 15px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background: #8c2476;
+    color: white;
+    box-shadow: 0px 0px 10px #754f6d;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: #b02c93;
+    transition: 0.5s;
+}
+
