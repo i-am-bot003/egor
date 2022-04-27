@@ -351,7 +351,7 @@ overflow-x: hidden;
     }
     header{
         height: 250px;
-        width: 100%
+        width: 900px
     
     }
     .headerbox{
@@ -394,7 +394,7 @@ overflow-x: hidden;
     footer{
         flex-direction: column;
         height: 900px;
-        width: 100%
+        width: 900px
        
     }
     
@@ -421,7 +421,7 @@ overflow-x: hidden;
     
     header{
         height: 200px;
-        width: 100%
+        width: 500px
     
     }
     .headerbox{
@@ -463,7 +463,7 @@ overflow-x: hidden;
     footer{
         flex-direction: column;
         height: 900px;
-        width: 100%
+        width: 500px
        
     }
     
