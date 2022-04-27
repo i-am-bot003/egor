@@ -412,9 +412,10 @@ button:hover{
     
     }
     .headerbox{
-        margin-top: 60%;
-        margin-left: 40%;
+        margin: 0;
         font-size: 27px;
+        padding-top: 60px;
+        padding-left: 150px;
     }
     
     .two{
