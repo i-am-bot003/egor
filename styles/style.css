@@ -350,13 +350,16 @@ overflow-x: hidden;
         visibility: hidden;
     }
     header{
-        height: 400px;
+        height: 250px;
     
     }
     .headerbox{
-        margin-top: 40%;
-        margin-left: 50%;
+        margin: 0;
         font-size: 40px;
+    }
+    .one{
+        margin-top: 20%;
+        margin-left: 40%
     }
     
     .two{
@@ -410,6 +413,11 @@ overflow-x: hidden;
     nav{
         visibility: hidden;
     }
+    
+    .one{
+        margin: 0;
+    }
+    
     header{
         height: 200px;
     
