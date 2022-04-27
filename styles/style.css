@@ -351,7 +351,7 @@ overflow-x: hidden;
     }
     header{
         height: 250px;
-        width: 900px
+        width: 100%
     
     }
     .headerbox{
@@ -367,24 +367,24 @@ overflow-x: hidden;
         visibility: hidden;
     }
     .info{
-        width: 550px;
+        width: 70%;
         flex-direction: column;
     }
     .info p{
-        width: 550px;
+        width: 100%;
         
     }
     
     .katalog{
-        width: 700px;
+        width: 70%;
     }
     
     .galereya{
-        width: 700px;
+        width: 85%;
     }
     
     .otzivi{
-        width: 700px;
+        width: 80%;
     }
     
     .otzivititle{
@@ -394,15 +394,15 @@ overflow-x: hidden;
     footer{
         flex-direction: column;
         height: 900px;
-        width: 900px
+        width: 100%
        
     }
     
     .fotbox{
-        width: 700px
+        width: 85%
     }
     .zakaz{
-        width: 450px
+        width: 50%
     }
     
     .logopanel{
@@ -421,7 +421,7 @@ overflow-x: hidden;
     
     header{
         height: 200px;
-        width: 500px
+        width: 100%
     
     }
     .headerbox{
@@ -436,24 +436,24 @@ overflow-x: hidden;
     }
     
     .info{
-        width: 350px;
+        width: 70%;
         flex-direction: column;
     }
     .info p{
-        width: 350px;
+        width: 100%;
         
     }
     
     .katalog{
-        width: 400px;
+        width: 100%;
     }
     
     .galereya{
-        width: 400px;
+        width: 90%;
     }
     
     .otzivi{
-        width: 400px;
+        width: 95%;
     }
     
     .otzivititle{
@@ -463,15 +463,15 @@ overflow-x: hidden;
     footer{
         flex-direction: column;
         height: 900px;
-        width: 500px
+        width: 100%
        
     }
     
     .fotbox{
-        width: 300px
+        width: 90%
     }
     .zakaz{
-        width: 350px
+        width: 80%
     }
     
     .logopanel{
