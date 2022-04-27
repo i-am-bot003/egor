@@ -342,68 +342,6 @@ button:hover{
     transition: 0.3s
 }
 
-@media(max-width: 500px){
-    nav{
-        visibility: hidden;
-    }
-    header{
-        height: 200px;
-    
-    }
-    .headerbox{
-        margin-top: 70%;
-        margin-left: 70%;
-    }
-    
-    .two{
-        visibility: hidden;
-    }
-    
-    .info{
-        width: 350px;
-        flex-direction: column;
-    }
-    .info p{
-        width: 350px;
-        
-    }
-    
-    .katalog{
-        width: 400px;
-    }
-    
-    .galereya{
-        width: 400px;
-    }
-    
-    .otzivi{
-        width: 400px;
-    }
-    
-    .otzivititle{
-        margin-top: 0px; 
-    }
-    
-    footer{
-        flex-direction: column;
-        height: 900px;
-        width: 500px
-       
-    }
-    
-    .fotbox{
-        width: 300px
-    }
-    .zakaz{
-        width: 350px
-    }
-    
-    .logopanel{
-        visibility: hidden;
-    }
-    
-}
-
 @media(max-width: 900px){
      nav{
         visibility: hidden;
@@ -464,3 +402,67 @@ button:hover{
         visibility: hidden;
     }
 }
+
+@media(max-width: 500px){
+    nav{
+        visibility: hidden;
+    }
+    header{
+        height: 200px;
+    
+    }
+    .headerbox{
+        margin-top: 70%;
+        margin-left: 70%;
+        font-size: 27px;
+    }
+    
+    .two{
+        visibility: hidden;
+    }
+    
+    .info{
+        width: 350px;
+        flex-direction: column;
+    }
+    .info p{
+        width: 350px;
+        
+    }
+    
+    .katalog{
+        width: 400px;
+    }
+    
+    .galereya{
+        width: 400px;
+    }
+    
+    .otzivi{
+        width: 400px;
+    }
+    
+    .otzivititle{
+        margin-top: 0px; 
+    }
+    
+    footer{
+        flex-direction: column;
+        height: 900px;
+        width: 500px
+       
+    }
+    
+    .fotbox{
+        width: 300px
+    }
+    .zakaz{
+        width: 350px
+    }
+    
+    .logopanel{
+        visibility: hidden;
+    }
+    
+}
+
