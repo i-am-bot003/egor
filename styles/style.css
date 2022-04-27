@@ -30,7 +30,9 @@ nav{
 .blocknav{
     width: 180px;
     text-align: center;
-    transition: 0.2s
+    transition: 0.2s;
+    border: 3px dashed;
+    
 }
 
 header{
@@ -338,4 +340,66 @@ button:hover{
     box-shadow: 1px 2px 3px #855f7d;
     filter: contrast(135%) brightness(95%);
     transition: 0.3s
+}
+
+@media(max-width: 500px){
+    nav{
+        visibility: hidden;
+    }
+    header{
+        height: 200px;
+    
+    }
+    .headerbox{
+        margin-top: 70%;
+        margin-left: 70%;
+    }
+    
+    .two{
+        visibility: hidden;
+    }
+    
+    .info{
+        width: 350px;
+        flex-direction: column;
+    }
+    .info p{
+        width: 350px;
+        
+    }
+    
+    .katalog{
+        width: 400px;
+    }
+    
+    .galereya{
+        width: 400px;
+    }
+    
+    .otzivi{
+        width: 400px;
+    }
+    
+    .otzivititle{
+        margin-top: 0px; 
+    }
+    
+    footer{
+        flex-direction: column;
+        height: 900px;
+        width: 500px
+       
+    }
+    
+    .fotbox{
+        width: 300px
+    }
+    .zakaz{
+        width: 350px
+    }
+    
+    .logopanel{
+        visibility: hidden;
+    }
+    
 }
