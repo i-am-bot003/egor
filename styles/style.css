@@ -21,14 +21,16 @@ nav{
 }
 
 .blocknav:hover{
-    text-shadow: 1px 2px 3px black;
-    transition: 0.5s;
+    text-shadow: 1px 2px 3px #450d4a;
+    padding-top: 4px; 
+    transition: 0.2s;
+    color: #d89bde
 }
 
 .blocknav{
     width: 180px;
     text-align: center;
-    transition: 0.5s
+    transition: 0.2s
 }
 
 header{
@@ -67,6 +69,13 @@ header *{
     color: #1f0619;
     display: flex;
     
+    transition: 0.5s
+    
+}
+
+.info:hover{
+    box-shadow: 1px 2px 3px #b181b5, -2px -1px 3px #b181b5;
+    transition: 0.5s
 }
 .infoleft{
     width: 550px;
@@ -100,6 +109,8 @@ li:hover{
     width: 250px;
     border-radius: 15px 15px 0 0;
     
+    transition: 0.4s;
+    
 }
 
 .card{
@@ -112,6 +123,24 @@ li:hover{
     align-items: center;
     box-shadow: 1px 2px 3px #4a1b40;
     padding: 0px 0px 20px 0px;
+    transition: 0.4s
+}
+
+.card:hover{
+    box-shadow: 1px 2px 3px #e0a3e5;
+    transition: 0.4s;
+    
+}
+
+.card:hover img{
+    filter: opacity(85%) contrast(155%);
+    
+    transition: 0.4s;
+}
+
+.card:hover .btn{
+    box-shadow: 1px 1px 3px #b75abf;
+    transition: 0.3s;
 }
 
 .card h3{
@@ -128,7 +157,9 @@ li:hover{
     align-items: center;
     border-radius: 20px;
     color: white;
-    padding: 1px
+    padding: 1px;
+    
+    transition: 0.3s;
 }
 
 .galereya{
@@ -137,7 +168,8 @@ li:hover{
     flex-direction: column;
     align-items: center;
     width: 1200px;
-    background-color: #a37c9b;
+    background: linear-gradient(180deg, rgba(195,109,185,1) 0%, rgba(235,0,255,0) 100%);
+    border-radius: 20px 20px;
     padding: 0 0 80px 0;
 
 }
@@ -147,6 +179,14 @@ li:hover{
     margin: 5px;
     padding: 10px;
     background-color: white;
+    transition: 0.5s;
+}
+
+.imggal:hover{
+    filter: contrast(135%) brightness(95%);
+    transition: 0.5s;
+    box-shadow: 1px 2px 3px #8e4b94
+    
 }
 
 .galbox{
@@ -178,6 +218,7 @@ li:hover{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    transition: 0.3s
 }
 
 .nonmargin{
@@ -264,3 +305,37 @@ button:hover{
     transition: 0.5s;
 }
 
+.logopanel{
+    z-index: 170;
+    position: sticky;
+    width: 80px;
+    height: 0px;
+    top: 70%;
+    left: 94%;
+    
+    
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 0px;
+    transition: 0.3s
+}
+
+.logopanel a{
+    font-size: 16px;
+}
+
+.logo:hover{
+    box-shadow: 1px 2px 3px #a3799a;
+    transition: 0.3s;
+    filter: contrast(135%) brightness(95%);
+    
+}
+
+.comitem:hover{
+    box-shadow: 1px 2px 3px #855f7d;
+    filter: contrast(135%) brightness(95%);
+    transition: 0.3s
+}
