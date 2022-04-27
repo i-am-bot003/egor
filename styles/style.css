@@ -403,3 +403,64 @@ button:hover{
     }
     
 }
+
+@media(max-width: 900px){
+     nav{
+        visibility: hidden;
+    }
+    header{
+        height: 400px;
+    
+    }
+    .headerbox{
+        margin-top: 40%;
+        margin-left: 50%;
+        font-size: 40px;
+    }
+    
+    .two{
+        visibility: hidden;
+    }
+    .info{
+        width: 550px;
+        flex-direction: column;
+    }
+    .info p{
+        width: 550px;
+        
+    }
+    
+    .katalog{
+        width: 700px;
+    }
+    
+    .galereya{
+        width: 700px;
+    }
+    
+    .otzivi{
+        width: 700px;
+    }
+    
+    .otzivititle{
+        margin-top: 0px; 
+    }
+    
+    footer{
+        flex-direction: column;
+        height: 900px;
+        width: 750px
+       
+    }
+    
+    .fotbox{
+        width: 700px
+    }
+    .zakaz{
+        width: 450px
+    }
+    
+    .logopanel{
+        visibility: hidden;
+    }
+}
