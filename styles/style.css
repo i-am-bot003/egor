@@ -351,7 +351,7 @@ overflow-x: hidden;
     }
     header{
         height: 250px;
-        width: 900px
+        width: 100%
     
     }
     .headerbox{
@@ -421,7 +421,7 @@ overflow-x: hidden;
     
     header{
         height: 200px;
-        width: 500px
+        width: 100%
     
     }
     .headerbox{
