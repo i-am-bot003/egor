@@ -343,6 +343,9 @@ button:hover{
 }
 
 @media(max-width: 900px){
+    body {
+overflow-x: hidden;
+}
      nav{
         visibility: hidden;
     }
@@ -464,6 +467,9 @@ button:hover{
     .logopanel{
         visibility: hidden;
     }
+    body {
+    overflow-x: hidden;
+}
     
 }
 
