@@ -381,6 +381,7 @@ button:hover{
   display: block;
   position: fixed;
   visibility: hidden;
+  color: black;
   top: 0;
   left: -100%;
   width: 300px;
