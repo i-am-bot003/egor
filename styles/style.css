@@ -436,10 +436,13 @@ button:hover{
     visibility: hidden;
 }
 
-@media(max-width: 900px){
-    .hamburger-menu{
+@media(max-width: 1200px){
+.hamburger-menu{
         visibility: visible;
     }
+}
+
+@media(max-width: 900px){
     
     body {
         overflow-x: hidden;
@@ -509,9 +512,6 @@ button:hover{
 }
 
 @media(max-width: 500px){
-    .hamburger-menu{
-        visibility: visible;
-    }
     
     nav{
         visibility: hidden;
