@@ -2,11 +2,12 @@ body{
     margin: 0 auto;
     font-family: 'Poiret One', cursive;
     font-size: 22px;
+    background-color: #F5F5DC
 }
 
 a{
     text-decoration-line: none;
-    color: #ff8fe7;
+    color: #ffdede;
 }
 
 
@@ -31,7 +32,7 @@ nav{
     width: 180px;
     text-align: center;
     transition: 0.2s;
-    border: 3px dashed;
+    border: 1px solid #ffdede;
     
 }
 
@@ -157,9 +158,9 @@ li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 23px;
     color: white;
-    padding: 1px;
+    padding: 3px;
     
     transition: 0.3s;
 }
@@ -366,7 +367,7 @@ button:hover{
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #aa74b3;
+  background-color: #616161;
 }
 .menu__btn > span::before {
   content: '';
@@ -381,7 +382,6 @@ button:hover{
   display: block;
   position: fixed;
   visibility: hidden;
-  color: black;
   top: 0;
   left: -100%;
   width: 300px;
@@ -437,13 +437,10 @@ button:hover{
     visibility: hidden;
 }
 
-@media(max-width: 1200px){
-.hamburger-menu{
+@media(max-width: 900px){
+    .hamburger-menu{
         visibility: visible;
     }
-}
-
-@media(max-width: 900px){
     
     body {
         overflow-x: hidden;
@@ -513,6 +510,9 @@ button:hover{
 }
 
 @media(max-width: 500px){
+    .hamburger-menu{
+        visibility: visible;
+    }
     
     nav{
         visibility: hidden;
